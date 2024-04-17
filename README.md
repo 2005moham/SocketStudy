@@ -12,19 +12,16 @@ To perform a study on Socket Programming
 •	It is identified by an IP address and a port number.
 •	Sockets can be classified into two main types: Stream Sockets and Datagram Sockets.
 •	Stream Sockets provide a reliable, connection-oriented communication, while Datagram Sockets are connectionless and operate in a best-effort mode.
-
 2. Client-Server Model
 
 •	Socket programming typically follows the client-server model.
 •	The server listens for incoming connections from clients, while clients initiate connections to the server.
 •	Servers are passive, waiting for connection requests, and clients are active, initiating communication.
-
-3, TCP/IP Protocol:
+3.TCP/IP Protocol:
 
 •	Transmission Control Protocol (TCP) and Internet Protocol (IP) are the foundational protocols for socket programming.
 •	TCP provides reliable, connection-oriented communication, ensuring data integrity and order.
 •	IP facilitates the routing of data between devices in a network.
-
 4.Basic Socket Functions:
 
 •	Socket programming involves a set of functions provided by the operating system or programming language to create, bind, listen, accept, connect, send, and receive data through sockets.
@@ -66,14 +63,17 @@ print(ack)
 continue
 else:
 c.close()
-break```
+break
+```
 SERVER
-```import socket
+```
+import socket
 s=socket.socket()
 s.connect(('localhost',8000))
 while True:
  print(s.recv(1024).decode())
- s.send("Acknowledgement Recived".encode())```
+ s.send("Acknowledgement Recived".encode())
+```
 ##OUTPUT
 CLIENT:
 ![image](https://github.com/MohanKrishnaJ/SocketStudy/assets/151419495/e1958b84-82e0-4b05-a13c-20880926f240)
