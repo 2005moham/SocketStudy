@@ -1,4 +1,4 @@
-# Ex.No:1a  			Study of Socket Programming
+## Ex.No:1a  			Study of Socket Programming
 
 ## Aim: 
 To perform a study on Socket Programming
@@ -88,7 +88,8 @@ while True:
  s.send("Acknowledgement Recived".encode())```
 ##OUTPUT
 CLIENT:
-![image](https://github.com/MohanKrishnaJ/SocketStudy/assets/151419495/7fd5ef10-b36f-495b-804d-24ee0a9c56f6)
+![image](https://github.com/MohanKrishnaJ/SocketStudy/assets/151419495/e1958b84-82e0-4b05-a13c-20880926f240)
+
 ##SERVER:
 ![image](https://github.com/MohanKrishnaJ/SocketStudy/assets/151419495/c961b4cb-8162-446e-a035-4630e4431457)
 
