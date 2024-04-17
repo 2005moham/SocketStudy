@@ -64,7 +64,7 @@ Socket programming finds applications in various domains, including web developm
 ```
 ##PROGRAM
 CLIENT:
-import socket
+```import socket
 s=socket.socket()
 s.bind(('localhost',8000))
 s.listen(5)
@@ -78,14 +78,14 @@ print(ack)
 continue
 else:
 c.close()
-break
+break```
 SERVER
-import socket
+```import socket
 s=socket.socket()
 s.connect(('localhost',8000))
 while True:
  print(s.recv(1024).decode())
- s.send("Acknowledgement Recived".encode())
+ s.send("Acknowledgement Recived".encode())```
 ##OUTPUT
 CLIENT:
 ![image](https://github.com/MohanKrishnaJ/SocketStudy/assets/151419495/7fd5ef10-b36f-495b-804d-24ee0a9c56f6)
