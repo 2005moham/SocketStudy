@@ -1,6 +1,6 @@
 # Ex.No:1a  			Study of Socket Programming
-### Name: Karthikeyan R
-### Reg.NO: 212222240046
+### Name: MOHAN KRISHNA J
+### Reg.NO: 212223220060
 ## Aim: 
 To perform a study on Socket Programming
 ## Introduction:
